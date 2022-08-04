@@ -1,0 +1,40 @@
+.cw2 {
+    margin-left: 0!important;
+}
+
+table {
+    width: 100%;
+}
+
+/* tbody {
+    height: 30rem;
+    max-height: max-content;
+} */
+
+.bg-th {
+    background-color: #f3f0f0;
+}
+
+.total-box {
+    background-color: #f3f0f0;
+    border-radius: 20px;
+    height: inherit;
+    padding-bottom: 30px;
+}
+
+.btns {
+    width: 8rem;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.main-footer {
+    margin-left: 0!important;
+}
+
+.input-total {
+    height: 50px!important;
+    margin-bottom: 10px;
+}
