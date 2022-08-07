@@ -38,12 +38,12 @@
                     document.cookie = 'us' + "=" + us+ ";" + expires + ";path=/";
                     window.location.href = 'https://posn.sisconsystem.online/pages/ventas.php';
                 } else {
-                    window.location.href = 'https://sisconsystem.online/index.php?redir=posn';
+                    window.location.href = 'https://app.sisconsystem.online/index.php?redir=posn';
                 }
             </script>
         <?php
         } else {
-            header('Location: https://sisconsystem.online/index.php?redir=posn&fail=verify');
+            header('Location: https://app.sisconsystem.online/index.php?redir=posn&fail=verify');
         }
     } else {
         $cokBD = $_COOKIE['bd'];
@@ -66,7 +66,7 @@
                 'expires' => time() - 60*60*24*30
             );
             setcookie('bd', $arr_cookie_options);
-            header('Location: https://sisconsystem.online/index.php?redir=posn&fail=noterm');
+            header('Location: https://app.sisconsystem.online/index.php?redir=posn&fail=noterm');
         } else {
             header('Location: https://posn.sisconsystem.online/pages/ventas.php');
         }
